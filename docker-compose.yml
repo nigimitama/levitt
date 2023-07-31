@@ -1,0 +1,9 @@
+version: '3'
+services:
+  levitt:
+    build: .
+    volumes:
+      - .:/workdir
+    ports:
+      - 8890:8890
+    command: jupyter-lab --ip=0.0.0.0 --port=8890 --allow-root
