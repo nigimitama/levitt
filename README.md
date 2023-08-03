@@ -10,3 +10,11 @@ Levitt (1997) は操作変数法を用いて警察の増強が犯罪件数に与
 McCraryが再現研究を行っており、データも公開している。このデータを使ってPythonで再現を試みる
 
 [Replication of Steven Levitt (AER, 1997), Justin McCrary 9/01](https://eml.berkeley.edu/replications/mccrary/index.html)
+
+
+## 結果
+
+- うまく再現できなかった
+- SASのコードをそのままlinearmodelsで再現しようとするとランク落ちでエラーになる
+- いくつか変数を落として再現しようとしても係数のプラスマイナスが合わなかったりする
+- first stageだけはうまく再現できるがsecond stageが再現できない
